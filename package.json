@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Application to parse data regarding various drugs.",
   "main": "index.js",
+  "homepage": "http://skoleosho97.github.io/unidrug",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --port 3000",
-    "build": "NODE_ENV=production webpack"
+    "build": "NODE_ENV=production webpack",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "author": "Samson Koleosho",
   "license": "ISC",
@@ -15,6 +18,7 @@
     "@types/react-dom": "^18.2.11",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.0.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
     "ts-loader": "^9.5.0",
