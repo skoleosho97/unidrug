@@ -1,0 +1,145 @@
+.drug_container {
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    width: auto;
+    max-width: 1050px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.drug_content {
+    height: 100%;
+    background: #EEEEEE;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.drug_filters {
+    margin-top: 8px;
+    display: flex;
+}
+
+.drug_filters .filter {
+    display: flex;
+    align-items: center;
+}
+
+.drug_filters .filter input {
+    margin-right: 4px;
+}
+
+.drug_filters .filter label {
+    margin-right: 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.drug_list {
+    padding-bottom: 20px;
+    flex: 1;
+    display: grid;
+    grid-template-rows: repeat(20, minmax(15px, 1fr));
+}
+
+.drug_item {
+    margin-right: 10px;
+    padding: 10px 0 10px 10px;
+    border-top: 1px solid #E4E4E4;
+    font-size: 0.9em;
+}
+
+.drug_item:hover {
+    background: #D4D4D4;
+    box-shadow: 0px 0px 12px 0px rgba(50,50,50,0.74);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(50,50,50,0.74);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(50,50,50,0.74);
+}
+
+.drug_item:last-of-type {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.tty {
+    margin-left: 5px;
+    padding: 1px 6px;
+    background: #ADADAD;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pages .active {
+    border-bottom: 3px solid #000;
+}
+
+.pages .active a {
+    font-weight: bold;
+}
+
+.pages li {
+    margin: 0 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.pages li a {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.drug_info {
+    height: 35px;
+    display: flex;
+}
+
+.drug_info .name {
+    padding-left: 5px;
+    font-size: 1.2em;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.drug_info .type {
+    padding: 0 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drug_content {
+    flex: 1;
+    padding-top: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.drug_content_container {
+    height: 50%;
+    border: 1px solid #A8A8A8;
+    border-radius: 5px;
+}
+
+.drug_content_container
+.drug_content_header {
+    background-color: #BCE1F3;
+}
+*/

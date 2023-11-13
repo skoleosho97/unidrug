@@ -1,0 +1,36 @@
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.drug_header {
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 1450px;
+    width: auto;
+    display: flex;
+}
+
+.drug_search_bar {
+    margin-left: 50px;
+    flex: 1;
+}
+
+.drug_search_bar input {
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    background: #F6F6F6;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+}
+
+.drug_buttons {
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
